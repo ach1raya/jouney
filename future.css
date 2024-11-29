@@ -120,3 +120,51 @@ footer{
     background-color: #6D2932;
     padding: 20px;
   }
+
+  @media screen and (max-width: 768px){
+
+    body{
+        background-color: 
+        #E8D8C4;
+        margin: 0;
+        
+    }
+
+    .nav-container {
+      display: flex;
+      flex-direction: row;
+      padding: 1px;
+      background-color:#561C24;
+      justify-content: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+
+  .H {
+    color: #E8D8C4;
+    font-family: "Chewy", system-ui;
+    font-size: 40px;
+  }
+  
+  .item1{
+    font-size: 10px;
+     padding: 12px;
+     margin: 1px;
+     text-align: center;
+  }
+  .item2{
+    font-size: 10px;
+     padding: 12px;
+     margin: 1px;
+     text-align: center;
+  }
+  .item3{
+     font-size: 10px;
+     padding: 12px;
+     margin: 1px;
+     text-align: center;
+    
+  }
+    }
+      
