@@ -127,3 +127,82 @@ a{
 
   }
 
+  @media screen and (max-width: 768px){
+
+    body{
+        background-color: 
+        #E8D8C4;
+        margin: 0;
+        
+    }
+
+    .nav-container {
+      display: flex;
+      flex-direction: row;
+      padding: 1px;
+      background-color:#561C24;
+      justify-content: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+
+    .gallery { 
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* เพิ่ม transition สำหรับการขยาย */
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container.active {
+  width: 350px; /* กรอบขยายกว้าง 1.5 เท่า */
+  height: 450px; /* กรอบขยายสูง 1.5 เท่า */
+  border: 3px solid #333; /* เปลี่ยนขอบเมื่อขยาย */
+}
+
+.image-container.active img {
+  transform: scale(1.2); /* ขยายรูปภาพ */
+}
+
+.H {
+  color: #E8D8C4;
+  font-family: "Chewy", system-ui;
+  font-size: 40px;
+}
+
+.item1{
+  font-size: 10px;
+   padding: 10px;
+   margin: 1px;
+   text-align: center;
+}
+.item2{
+  font-size: 10px;
+   padding: 10px;
+   margin: 1px;
+   text-align: center;
+}
+.item3{
+   font-size: 10px;
+   padding: 10px;
+   margin: 1px;
+   text-align: center;
+  
+}
+  }
+    
